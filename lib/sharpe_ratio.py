@@ -4,4 +4,4 @@
 # Ra - asset return
 # Rb - Risk-free return (e.g. US Treasury)
 def sharpe_ratio():
-
+    

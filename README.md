@@ -14,3 +14,9 @@ Here's the Sharpe Equation
 
 - Try changing the inputs
 -> Graph would rerender
+
+## Goals
+
+- Get familiar with Python plus Notebooks, Panda, SciKit, etc....
+- Become familiar with entire AI pipeline ecosystem
+- Get up to date with my mathematics
