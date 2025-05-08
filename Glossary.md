@@ -36,4 +36,12 @@
 
 ### Quant Chain
 
-*Data Curators* - collect, clean, index, store, adjust, and deliver data. Experts in market microstructure and data protocols such as FIX
+*Data Curators* - collect, clean, index, store, adjust, and deliver data. Experts in market microstructure and data protocols such as FIX. (Chapter one is devoted to a summary of this vast field)
+
+*Feature Analysts* - Use information theory, signal extraction/processing, visualization, labeling, weighting, classifiers, and feature importance techniques to transform raw data into informative signals. These signals can then be employed by strategists. (Chapters 2-9 and 17-19 are devoted to this aspect of the field)
+
+*Strategists* - Financial market and economy data scientists who anaylze available feature signals in order to create a strategy experiment for a theory. (Developing strategies from available features is covered in chapters 10 and 16)
+
+*Backtesters* - Data scientists who employ empirical and experimental techniques to validate a particular strategy against a variety of scenarios including historal data producing meta analysis for evaluation. Backtesters try to ensure that a strategy isn't overfit to the available data. These results are not communicated broadly in order to ensure future experiments remain untainted (Chapters 11 - 16 cover the backtester phase of strategy development)
+
+*Deployment Team* - Integrates strategy code with production. These folk specialize in algorithms, and mathematical programming to ensure outgoing strategy is identical to incoming strategy while delivering in a time table which ensures strategy remains relevant. Some tooling include process schedulers, automation servers (E.G. Jenkins), voctorization, multithreading, multiprocessing, GPUs, distributed computing (E.G. Hadoop), high-performance computing (E.G. Slurm), and parallel computing techniques. (Deployment techniques are covered in chapters 20-22)
