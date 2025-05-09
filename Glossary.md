@@ -8,6 +8,14 @@
 
 *False positive* - A signal incorrectly interpreted as a positive (E.G. underlying data points to NO PURCHASE but algorithm misinterprets as BUY)
 
+*Neural networks* - Layers of "neurans" (weighted nodes which take an input, apply the weighting factor and decide which output to select)
+
+    a. *Deep neural networks* - Instead of one or two internal layers, add a complex internal network between the input and output layers
+
+    b. *Recurrent neural networks* - Feed output data from one step into next step in order to enable "memory". These might be used in cases such as "next word" prediction (e.g. a search engine's autocomplete) which will want to take into account both the next word (token) and the previous words (tokens)
+
+    c. *Convolutional neural networks* - Small pass filter functions applied to larger space input in order to extract features. Used extensively in image processing because it can handle large amounts of data accurately
+
 *Overfit* - The process of training an AI model which is tuned to its training data as opposed to the full real data space
 
 *True negative* - A signal correctly intepreted as false (E.G. underlaying data points to NO PURCHASE and algorithm produces NO PURCHASE)
