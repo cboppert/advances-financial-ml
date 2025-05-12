@@ -2,6 +2,11 @@
 
 ## Python Libraries
 
+- [matplotlib](https://matplotlib.org/) - visualization
+- [multiprocessing](https://docs.python.org/3/library/multiprocessing.html) - process management package
+- [pandas](https://pandas.pydata.org/) - Data analysis and manipulation
+- [scikit-learn](https://scikit-learn.org/stable/index.html) - Machine learning in python - classification, regression, clustering, etc
+- [scipy](https://scipy.org/) - fundamental algorithms for scientific computing in Python
 - [simplefix](https://pypi.org/project/simplefix/) - Simple FIX protocol library
 
 ## Tooling
