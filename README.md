@@ -20,3 +20,10 @@ Here's the Sharpe Equation
 - Get familiar with Python plus Notebooks, Panda, SciKit, etc....
 - Become familiar with entire AI pipeline ecosystem
 - Get up to date with my mathematics
+
+## ToDo
+
+### ViM + Python = Love at First Type?
+
+- [ ] Look up ViM Python Tooling
+- [ ] How do they work with Python's Virtual Envs?
