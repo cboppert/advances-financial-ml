@@ -53,3 +53,15 @@
 *Backtesters* - Data scientists who employ empirical and experimental techniques to validate a particular strategy against a variety of scenarios including historal data producing meta analysis for evaluation. Backtesters try to ensure that a strategy isn't overfit to the available data. These results are not communicated broadly in order to ensure future experiments remain untainted (Chapters 11 - 16 cover the backtester phase of strategy development)
 
 *Deployment Team* - Integrates strategy code with production. These folk specialize in algorithms, and mathematical programming to ensure outgoing strategy is identical to incoming strategy while delivering in a time table which ensures strategy remains relevant. Some tooling include process schedulers, automation servers (E.G. Jenkins), voctorization, multithreading, multiprocessing, GPUs, distributed computing (E.G. Hadoop), high-performance computing (E.G. Slurm), and parallel computing techniques. (Deployment techniques are covered in chapters 20-22)
+
+### Python
+
+*CPython* - Python interpreter distributed on python.org and used by us in this repo
+
+*JPython* - Python on Java
+
+*IronPython* - Targets .NET and Mono Framework
+
+### Tech
+
+*Mono Framework* - Cross platform application framework sponsored by Microsoft using .NET
