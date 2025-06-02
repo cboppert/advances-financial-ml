@@ -1,5 +1,15 @@
 # Glossary
 
+## Mathematics
+
+*Matrix* - Two dimensional array, e.g. [[1,2,3], [1,4,9]]
+
+*Scalar* - A single value such as 1 or 3i
+
+*Tensor* - N dimensional array such as [[[1, 2], [2, 4]], [[2, 3], [4, 8]], [[3, 4], [6, 12]]]
+
+*Vector* - A one dimensional array, e.g. [1, 2, 3]
+
 ## General Machine Learning and AI Terms
 
 *Backtest* - A method for verifying an AI model by testing against existing historical data

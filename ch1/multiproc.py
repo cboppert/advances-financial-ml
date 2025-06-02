@@ -108,3 +108,5 @@ if __name__ == '__main__':
   p.start() # spawns a process
   print(q.get())
   p.join()
+
+# Calling it here for now, we can continue to read through the Multiprocessing documents when we need to.
