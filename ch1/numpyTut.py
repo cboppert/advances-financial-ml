@@ -20,3 +20,15 @@ a[2] = 5
 a[1:] # 2, 5 -> Python's slice notation
 
 b = a[1:] # Returns a "view" into an array, modifications affect original array
+
+arrayWithThreePointsInFourDimensions = np.array([[1, 2, 3, 4], [5, 6, 7, 8], [10,11,12,13]])
+
+# Axis - dimensionality of an array... so arrayWithThreePointsInFourDimensions has 3 arrays with dimensionality 4 and arrayWithThreePointsInFourDimensions has 2 axis so a[1,3] # 8
+# Axes - collection of axis
+
+arrayWithThreePointsInFourDimensions[1,3] # 8
+
+# Lots of NumPy functions work by specifying the axis...
+
+sum = np.sum(arrayWithThreePointsInFourDimensions, axis = 1) # [10 26 46]
+print(sum)
