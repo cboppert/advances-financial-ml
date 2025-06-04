@@ -32,3 +32,33 @@ arrayWithThreePointsInFourDimensions[1,3] # 8
 
 sum = np.sum(arrayWithThreePointsInFourDimensions, axis = 1) # [10 26 46]
 print(sum)
+
+
+# rand takes n1...nN where n1...nN are dimensions (where all n exist in set of positive natural numbers)
+np.random.rand(1) # array([0.2123])
+
+np.random.rand(3) # array([0.1, 0.2, 0.3])
+
+np.random.rand(3, 1) # array([[0.1], [0.6], [0.9]]
+
+rand = np.random.rand(2, 1, 1) # array([ [ [ 0.1 ] ],
+                               #         [ [ 0.9 ] ]])
+
+dimensions = rand.ndim # 3
+shape = rand.shape     # (2, 1, 1)
+size = rand.size       # 2 (Count of flattened array)
+
+# Can create arrays with np.zeros, np.ones, np.empty (make sure to fill)
+# Can specify data types
+# Arrays have sorting functions
+# Can reshape 
+
+# there's a bunch of other standard stuff in here we can look up later if we need it
+
+# Broadcasting is pretty neat - can be used with same size arrays too
+
+d = np.array([2, 4])
+d * 2 # [4, 8]
+
+# Awesome! We can leave this here for now. There's a bunch of further reading about matrices, but we get the gist
+# and getting some practice reading the shapes of n dimensional arrays was pretty useful
