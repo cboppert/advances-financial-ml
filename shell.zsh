@@ -5,9 +5,12 @@
 # But convention I believe is .pyenv or something
 export DEFAULT_PY_VENV_DIR=py-venv
 
-activatePyVenv () {
+pyVAck () {
   local envDir="${1:-$DEFAULT_PY_VENV_DIR}"
   local activateScript="./$envDir/bin/activate"
 
   source $activateScript
 }
+
+alias pipi="pip install"
+alias py="python"

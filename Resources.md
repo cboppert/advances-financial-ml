@@ -11,6 +11,11 @@
 - [scipy](https://scipy.org/) - fundamental algorithms for scientific computing in Python
 - [simplefix](https://pypi.org/project/simplefix/) - Simple FIX protocol library
 
+### Potentially Relevant
+
+- [PyTest](https://docs.pytest.org/en/6.2.x/getting-started.html) - Framework for simple, scalable Python testing
+- [Hypothesis](https://hypothesis.readthedocs.io/en/latest/) - Property based testing framework for Python
+
 ## Tooling
 
 - [Apache Hadoop Distributed Computing](https://hadoop.apache.org/)
