@@ -1,28 +1,14 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
-import time
+from wsgiref.simple_server import make_server
+from pyramid.config import Configurator
+from pyramid.response import Response
 
-hostName = "localhost"
-serverPort = 8080
+def hello_world(request):
+  return Response('Hello World')
 
-class AIServer(BaseHTTPRequestHandler):
-  def do_GET(self):
-    self.send_response(200)
-    self.send_header("Content-Type", "text/html")
-    self.end_headers()
-    self.wfile.write(bytes("<html><head><title>Project Server</title></head>", "utf-8"))
-    self.wfile.write(bytes("<p>Request: %s</p>" % self.path, "utf-8")) # Syntax check here, is this how interpolation works?
-    self.wfile.write(bytes("<body>", "utf-8"))
-    self.wfile.write(bytes("<p>This is an example web server.</p>", "utf-8"))
-    self.wfile.write(bytes("</body></html>", "utf-8"))
-
-  if __name__ == "__main__":
-    webServer = HTTPServer((hostName, serverPort), AIServer) # Syntax check here, does that create a tuple for the first argument?
-    print("Server started http://%s:%s" % (hostName, serverPort)) # Interpolation it must be, but maybe this is just a list in general, bet I can get a third arg there... weird wouldn't just use square brackets... is that not an array syntax in Python? The mystery abounds
-
-    try:
-      webServer.serve_forever()
-    except KeyboardInterrupt:
-      pass
-
-    webServer.server_close()
-    print("Server stopped.")
+if __name__ == '__main__':
+  with Configurator() as config:
+    config.add_route('hello', '/')
+    config.add_view(hello_world, route_name='hello')
+    app = config.make_wsgi_app()
+  server = make_server('0.0.0.0', 6543, app)
+  server.serve_forever()

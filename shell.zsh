@@ -7,7 +7,7 @@ export DEFAULT_PY_VENV_DIR=py-venv
 
 creVenv () {
   local envDir="${1:-$DEFAULT_PY_VENV_DIR}"
-  python -m venv $envDir
+  python3 -m venv $envDir
 }
 
 pyVAck () {
