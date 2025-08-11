@@ -1,6 +1,7 @@
 from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
+import collectors.implementations.nws
 
 def hello_world(request):
   return Response('Hello World')
