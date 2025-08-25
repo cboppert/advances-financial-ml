@@ -8,6 +8,7 @@ def hello_world(request):
 # TODO: Crear brain.py... un proceso para dirigir otros procesos
 def start_server():
   print('Comienzo el servidor')
+
   with Configurator() as config:
     config.add_route('hello', '/')
     config.add_view(hello_world, route_name='hello')
