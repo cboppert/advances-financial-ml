@@ -11,6 +11,12 @@ Una colleccionista será
 - El módulo HTTP 
 - El módulo 
 
+### Materías
+
+- [ ] https://chizkidd.github.io//2025/05/30/machine-learning-key-math-eqns/
+
+- [ ] SciKit
+
 ### APIs
 
 #### Tiempo

@@ -1,3 +1,5 @@
+import threading
+
 from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.response import Response
@@ -16,3 +18,8 @@ def start_server():
   server = make_server('0.0.0.0', 6543, app)
   server.serve_forever()
   return server
+
+# Comienzo el servidor
+def start_server_thread():
+  serverThread = threading.Thread(target=start_server)
+  serverThread.start()
