@@ -1,5 +1,11 @@
 # Running Plan
 
+## 10 28 2025
+
+Estamos tratando elaborar nos sistema
+
+
+
 ## 6 23 2025
 
 We're currently knee deep in Sci Kit math documentation learning how to apply different regressions and analysis on data sets.

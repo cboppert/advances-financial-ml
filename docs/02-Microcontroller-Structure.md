@@ -26,6 +26,10 @@ Compraré dos y continuar con solo mi Jetson Nano
 
 ### El Nano Jetson
 
+Mi numero de producto - 945-13450-00000-000
+
+[https://developer.nvidia.com/embedded/l4t/r32_release_v7.1/jp_4.6.1_b110_sd_card/jeston_nano/jetson-nano-jp461-sd-card-image.zip](El imagen para mi Nano)
+
 [https://developer.nvidia.com/embedded/community/support-resources](Los recursos!)
 
-
+[https://themaister.net/blog/2025/10/05/a-case-for-learning-gpu-programming-with-a-compute-first-mindset/](Aprendiendo GPU desarollando)
