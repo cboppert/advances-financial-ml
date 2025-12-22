@@ -1,0 +1,6 @@
+*.swp
+*.beam
+*.DS_Store
+*.password
+*.hb.*
+*.pem

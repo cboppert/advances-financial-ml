@@ -8,6 +8,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 mv ../configs/vimrc ~/.vimrc
 cat ../configs/bashrc >> ~/.bashrc
+mv ../configs/gitconfig ~/.gitconfig
+mv ../configs/gitignore ~/.gitignore
 
 mkdir -p Documents/notes
 touch Documents/notes/scratchpad.md
+
