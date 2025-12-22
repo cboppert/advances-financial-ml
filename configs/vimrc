@@ -1,0 +1,38 @@
+syntax on
+set number
+
+inoremap fd <Esc>
+vnoremap fd <Esc>
+nmap , :
+
+let mapleader = " "
+
+set encoding=utf-8
+set updatetime=300
+
+map <leader>t :vs<Enter><C-w>l:term<Enter><C-w>j:q<Enter>
+map <leader>T :below terminal<Enter>
+
+" Editing configuration files
+map <leader>V :source ~/.vimrc<Enter>
+map <leader>v :e ~/.vimrc<Enter>
+map <leader>z :e ~/.zshrc<Enter>
+
+" Movement with Ctrl-<H | J | K | L>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-H> <C-W><C-H>
+nnoremap <C-L> <C-W><C-L>
+
+" Tab Behavior
+set autoindent
+set noexpandtab
+set tabstop=3
+set softtabstop=3
+set shiftwidth=3
+
+" Highlight search results
+set hls
+
+map <leader>x :vs<Enter>:e ~/Documents/notes/scratchpad.md<Enter>
+map <leader>X :vs<Enter>:e ~/Documents/notes<Enter>
