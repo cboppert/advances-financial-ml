@@ -1,3 +1,9 @@
+call plug#begin()
+
+Plug 'preservim/nerdtree'
+
+call plug#end()
+
 syntax on
 set number
 
@@ -36,3 +42,7 @@ set hls
 
 map <leader>x :vs<Enter>:e ~/Documents/notes/scratchpad.md<Enter>
 map <leader>X :vs<Enter>:e ~/Documents/notes<Enter>
+
+" NerdTRee
+let g:NERDTreeGitStatusUseNerdFonts = 0
+map <leader>n :NERDTreeToggle<Enter>
