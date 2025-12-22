@@ -6,11 +6,10 @@ sudo apt-get install curl
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-mv ../configs/vimrc ~/.vimrc
+cp ../configs/vimrc ~/.vimrc
 cat ../configs/bashrc >> ~/.bashrc
-mv ../configs/gitconfig ~/.gitconfig
-mv ../configs/gitignore ~/.gitignore
+cp ../configs/gitconfig ~/.gitconfig
+cp ../configs/gitignore ~/.gitignore
 
 mkdir -p Documents/notes
 touch Documents/notes/scratchpad.md
-
