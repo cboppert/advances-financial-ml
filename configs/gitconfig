@@ -4,7 +4,7 @@
 	s = status
 	fwl = push --force-with-lease
 [core]
-	excludesFile = /Users/codyboppert/.gitignore
+	excludesFile = /home/cody/.gitignore
 [user]
 	name = Cody Boppert
 	email = 
