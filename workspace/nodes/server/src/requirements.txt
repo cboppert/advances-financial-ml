@@ -1,0 +1,5 @@
+###### Reqs without Versions ######
+
+###### Reqs with Versions ######
+
+python-dotenv == 1.2.1

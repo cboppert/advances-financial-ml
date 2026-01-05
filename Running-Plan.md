@@ -1,5 +1,11 @@
 # Running Plan
 
+## 01 05 2026
+
+Es un año nuevo! Estoy cansado hoy, y mi trabajo es difícil. Pero, creo puedo trabajar aquí un poco hoy.
+
+Quiero comenzar collectando los datos desde unas apis.
+
 ## 10 28 2025
 
 Estamos tratando elaborar nos sistema

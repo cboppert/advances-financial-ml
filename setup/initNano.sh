@@ -13,3 +13,5 @@ cp ../configs/gitignore ~/.gitignore
 
 mkdir -p Documents/notes
 touch Documents/notes/scratchpad.md
+
+eval "$(ssh-agent -s)"
